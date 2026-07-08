@@ -1,5 +1,9 @@
 # GrowEasy — AI-Powered CSV Lead Importer
 
+**🌐 Live app:** [grow-neha-kumari.vercel.app](https://grow-neha-kumari.vercel.app) · **API:** [groweasy-import-api.onrender.com](https://groweasy-import-api.onrender.com/api/health)
+
+> ⏳ The API runs on Render's free tier and sleeps after ~15 idle minutes — the first request after a pause can take ~40 s while it wakes up.
+
 Import CRM leads from **any CSV format** — Facebook exports, Google Ads exports, real-estate CRM dumps, sales reports or hand-made spreadsheets. The system uses **Google Gemini** to intelligently map arbitrary columns into the GrowEasy CRM schema, validates every record server-side, and streams live progress to the UI.
 
 > 📐 See [ARCHITECTURE.md](ARCHITECTURE.md) for the full system design, diagrams and design decisions.
